@@ -1,0 +1,112 @@
+<!--index.wxml-->
+<view class="container" bindtap="modelMenu">
+  <view class='menu'>
+  
+    <view class='card-bord'>
+      <navigator url="/pages/dm/dm" class='card card_dm'>
+        <text class="txt">弹幕</text>
+      </navigator>
+    </view>
+
+    <view class='card-bord'>
+      <navigator url="/pages/sp/sp" class='card card_sp'>
+        <text class="txt">闪屏</text>
+      </navigator>
+    </view>
+
+ <view class='card-bord'>
+      <navigator url="/pages/sp/sp" class='card card_sp'>
+        <text class="txt">趣弹</text>
+      </navigator>
+    </view>
+    <!-- <view class='card-bord'>
+      <navigator url="/pages/zanshang/zanshang" class='card card_sh'>
+        <text class="txt">手绘</text>
+      </navigator>
+    </view>
+
+    <view class='card-bord'>
+      <navigator url="/pages/zanshang/zanshang" class='card card_tp'>
+        <text class="txt">图片</text>
+      </navigator>
+    </view> -->
+
+    <!-- <view class='card-bord'>
+      <navigator url="/pages/qw/qw" class='card card_ygb'>
+        <text class="txt">趣玩</text>
+      </navigator>
+    </view>
+
+    <view class='card-bord'>
+      <navigator url="/pages/zanshang/zanshang" class='card card_fk'>
+        <text class="txt">反馈</text>
+      </navigator>
+    </view> -->
+
+  </view>
+
+  
+<!--   
+  <view class='screen' bindtap="modelMenu">
+  
+  </view> -->
+
+
+
+
+<!-- 
+  <view class='sp' color='#f00'>
+  
+  </view>
+  
+  <view class="menu-box" hidden="{{flagMenu}}">
+
+    <view class="menu-body">
+      <view class="menu">
+        <view class="item no-border">
+          <navigator url="/pages/zanshang/zanshang" class="a">
+            <text class="icon zanshang"></text>
+            <text class="txt">弹幕</text>
+          </navigator>
+        </view>
+        <view class="item no-border">
+          <navigator url="/pages/sp/sp" bindtap='onSP' class="a">
+            <text class="icon find"></text>
+            <text class="txt">闪屏</text>
+          </navigator>
+        </view>
+        
+        <view class="item no-border">
+          <navigator url="" bindtap='onDanJi' class="a">
+            <text class="icon one"></text>
+            <text class="txt">手绘</text>
+          </navigator>
+        </view>
+
+        <view class="item no-border">
+          <navigator url="/pages/help/help" class="a">
+            <text class="icon help"></text>
+            <text class="txt">图片</text>
+          </navigator>
+        </view>
+
+        <view class="item no-border">
+          <navigator url="/pages/about/about" class="a">
+            <text class="icon about"></text>
+            <text class="txt">趣玩</text>
+          </navigator>
+        </view>
+
+        <view class="item no-border">
+          <navigator url="/pages/about/about" class="a">
+            <text class="icon about"></text>
+            <text class="txt">发现</text>
+          </navigator>
+        </view>
+
+     </view>
+    </view>
+  </view>
+ -->
+
+</view>

@@ -1,0 +1,39 @@
+<!--pages/sp/sp.wxml-->
+<view class="container" style='background:{{spColor}};background-size: cover;' bindtap="modelMenu">
+  
+
+<view class="menu-box" hidden="{{hideMenu}}">
+
+    <view class="menu-body">
+      <view class="menu">
+        <view class="item no-border">
+          <navigator bindtap='onBack' class="a">
+            <image class="icon" src='../../images/sp_back.png'></image>
+            <text class="txt">返回</text>
+          </navigator>
+        </view>
+        <view class="item no-border">
+          <navigator bindtap='onMan' class="a">
+            <image class="icon" src='../../images/sp_man.png'></image>
+            <text class="txt">减速</text>
+          </navigator>
+        </view>
+        
+        <view class="item no-border">
+          <navigator bindtap='onReset' class="a">
+            <image class="icon" src='../../images/sp_reset.png'></image>
+            <text class="txt">正常</text>
+          </navigator>
+        </view>
+
+        <view class="item no-border">
+          <navigator bindtap='onKuai' class="a">
+            <image class="icon" src='../../images/sp_kuai.png'></image>
+            <text class="txt">增速</text>
+          </navigator>
+        </view>
+     </view>
+    </view>
+  </view>
+
+</view>

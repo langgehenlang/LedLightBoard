@@ -1,0 +1,195 @@
+/**index.wxss**/
+page{
+    position: fixed;
+    height: 100%;
+}
+
+.container{
+    height: 100%;    
+    width: 100%;  
+    flex-direction:column;
+    display:flex;  
+    background-color: #fff; 
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545559205023&di=40187dd6c34615119cd21523ebbc46f1&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2017-10-18%2F59e6e729ce1c7.png) 0 0rpx no-repeat;
+    background-size: cover;
+    
+}
+
+.screen {
+  height: 100%;    
+  width: 100%;  
+  flex-direction:column;
+  display:flex;  
+  background: #000; 
+}
+
+.menu{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.75);        
+    padding-top: 0rpx;
+    border-radius: 15rpx;    
+}
+
+.card-bord {
+  float: left;
+  width:50%;
+  height: 200rpx;
+  margin-bottom: 20rpx;
+}
+
+.card {
+  float: left;
+  width:90%;
+  height: 200rpx;
+  line-height: 200rpx;
+  border-radius: 15rpx;
+  text-align: center;
+  font-size: 50rpx;
+  color: #FFF;
+  margin-left: 5%;
+}
+
+.card_dm{
+  background: rgba(228, 89, 89, 0.8);
+  box-shadow: 1px 1px 3px rgba(228, 89, 89, 0.8);
+}
+
+.card_sp{
+  background: rgba(76, 76, 168, 0.8);
+  box-shadow: 1px 1px 3px rgba(76, 76, 168, 0.8);
+}
+
+.card_sh{
+  background: rgba(199, 100, 219, 0.8);
+  box-shadow: 1px 1px 3px rgba(199, 100, 219, 0.8);
+}
+
+.card_tp{
+  background: rgba(107, 177, 218, 0.8);
+  box-shadow: 1px 1px 3px rgba(107, 177, 218, 0.8);
+}
+
+.card_ygb{
+  background: rgba(134, 238, 203, 0.8);
+  box-shadow: 1px 1px 3px rgba(134, 238, 203, 0.8);
+}
+
+.card_fk{
+  background: rgba(189, 51, 131, 0.8);
+  box-shadow: 1px 1px 3px rgba(189, 51, 131, 0.8);
+}
+
+
+
+.menu-box{
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  background:rgba(0,0,0,0);
+  overflow: hidden;
+  display:flex;
+  flex-direction:column;
+}
+
+.menu-body{
+  position:fixed;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: auto;
+  bottom: 0rpx;
+  border-top-right-radius: 5rpx;
+  border-top-left-radius: 5rpx;
+}
+
+
+.menu{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);        
+    padding-top: 0rpx;
+    border-radius: 15rpx;    
+}
+
+.menu .item{
+    float: left;
+    width: 33.33%;
+    height: 187.5rpx;
+    border-right: 1px solid rgba(0,0,0,.15);
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    text-align: center;
+}
+
+.menu .item .a{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu .item.no-border {
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.menu .icon{
+    margin: 0 auto;
+    display: block;
+    height: 52.803rpx;
+    width: 52.803rpx;
+    margin-bottom: 16rpx;    
+}
+
+.menu .icon.about{
+    background: url(http://youcanyin.com/pdjh/images/me.png) 0 0rpx no-repeat;
+    background-size: 52.803rpx;
+}
+
+.menu .icon.help{
+    background: url(http://youcanyin.com/pdjh/images/help.png) 0 0rpx no-repeat;
+    background-size: 52.803rpx;
+}
+
+.menu .icon.zanshang{
+    background: url(http://youcanyin.com/pdjh/images/zanshang.png) 0 0rpx no-repeat;
+    background-size: 52.803rpx;
+}
+
+.menu .icon.find{
+    background: url(http://youcanyin.com/pdjh/images/find.png) 0 0rpx no-repeat;
+    background-size: 52.803rpx;
+}
+
+.menu .icon.one{
+    background: url(http://youcanyin.com/pdjh/images/one.png) 0 0rpx no-repeat;
+    background-size: 52.803rpx;
+}
+
+.menu .icon.kefu{
+    background: url(http://youcanyin.com/pdjh/images/kefu.png) 0 0rpx no-repeat;
+    background-size: 52.803rpx;
+}
+
+.menu .txt{
+    display: block;
+    height: 44rpx;
+    width: 100%;
+    font-size: 44rpx;
+    color:#fff;
+}
+
+
+.sp{
+    height: 100%;    
+    width: 100%;  
+    flex-direction:column;
+    display:flex;  
+    background: #f00; 
+}

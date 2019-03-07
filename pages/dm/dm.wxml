@@ -1,0 +1,93 @@
+<!--pages/tm/dm.wxml-->
+<!-- <view>1 显示完后再显示</view> -->
+<view class="example">
+  <view class="marquee_box" style="background:{{back_ground}};">
+    <view class="marquee_text one" style="{{orientation}}:{{marqueeDistance}}px;font-size: {{dm_textsize}}px;color:{{dm_textcolor}}">
+      {{dm_text}}
+    </view>
+  </view>
+
+
+  <view class="menu-box" hidden="{{hideMenu}}">
+
+    <view class="menu-body">
+      <!--输入文字-->
+      <view class="menu-item">
+        <text class="title">文字</text>
+        <input class="edittext" value='{{edittext}}' bindinput='onInput' ></input>
+        <text class="title" bindtap='onsave'>保存</text>
+      </view>
+
+      <!--方向-->
+      <view class="menu-item">
+        <text class="title">方向</text>    
+        <!--水平滚动-->
+        <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
+          <text class="card" style="display: inline-block">横向</text>
+          <text class="card" style="display: inline-block">竖向</text>                   
+        </scroll-view>
+     </view>
+
+      <!--速度-->
+      <view class="menu-item">
+        <text class="title">速度</text>    
+         <!--水平滚动-->
+        <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
+          <text class="card" style="display: inline-block">慢</text>
+            <text class="card" style="display: inline-block">中</text>  
+            <text class="card" style="display: inline-block">快</text>  
+        </scroll-view>
+      </view>
+
+      <!--字号：小，中，大，超大-->
+      <view class="menu-item">
+        <text class="title">字号</text>
+        <!--水平滚动-->
+        <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
+            <!--  display: inline-block-->
+            <text class="card" style="display: inline-block">小</text>
+            <text class="card" style="display: inline-block">中</text>  
+            <text class="card" style="display: inline-block">大</text>  
+            <text class="card" style="display: inline-block">超大</text>  
+        <!-- <view style="background: red; width: 200px; height: 100px; display: inline-block" ></view> -->
+        </scroll-view>
+      </view>
+
+
+      <!--颜色：颜色-->
+      <view class="menu-item">
+        <text class="title">字色</text>  
+        <view class="menu-item">  
+          <!--水平滚动-->
+          <scroll-view scroll-x="true" style="white-space: nowrap; display: flex" wx:for="{{backgroudlist}}" wx:for-item="item">
+              <text class="card" style=" display: inline-block ; background: {{item.color}}"></text>
+          </scroll-view>
+        </view>
+      </view>
+
+      <!--背景：颜色-->
+      <view class="menu-item">
+        <text class="title" >背景</text>    
+        <view class="menu-item">
+          <!--水平滚动-->
+          <scroll-view scroll-x="true" class="scroll"  style="white-space: nowrap; display: flex" wx:for="{{textcolorlist}}" wx:for-item="item">
+              <text class="card" style=" display: inline-block; background-color: {{item.color}}"></text>  
+              <!-- <text class="card color1" style=" display: inline-block"></text>         -->   
+          </scroll-view>
+        </view>
+      </view>
+      
+    </view>
+  </view>
+
+</view>
+<!-- <view>2 出现白边后即显示</view>
+<view class="example">
+  <view class="marquee_box">
+    <view class="marquee_text" style="{{orientation}}:{{marqueeDistance2}}px;font-size: {{size}}px;">
+      <text>{{text}}</text>
+      <text wx:if="{{marquee2copy_status}}" style="margin-left:{{marquee2_margin}}px;">{{text}}</text>
+    </view>
+  </view>
+</view> -->
+

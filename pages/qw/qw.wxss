@@ -1,0 +1,16 @@
+/* pages/qw/qw.wxss */
+page{
+    position: fixed;
+    height: 100%;
+}
+
+.container{
+    height: 100%;    
+    width: 100%;  
+    flex-direction:column;
+    display:flex;  
+    background-color: #fff; 
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545559205023&di=40187dd6c34615119cd21523ebbc46f1&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2017-10-18%2F59e6e729ce1c7.png) 0 0rpx no-repeat;
+    background-size: cover;
+    
+}

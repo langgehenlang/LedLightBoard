@@ -203,10 +203,10 @@ page{
 
 
 .card {  
-  width:80rpx;
-  height: 80rpx;
-  line-height: 80rpx;
-  border-radius: 80rpx;
+  width: 70rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 70rpx;
   text-align: center;
   font-size: 28rpx;
   color: #FFF;  
@@ -214,6 +214,7 @@ page{
   box-shadow: 1rpx 1rpx 5rpx 1rpx rgba(228, 89, 89, 0.0);    
   display: inline-block;
   margin: 8rpx;   
+  border:1px #FFF solid;
 }
 
 .scroll{
